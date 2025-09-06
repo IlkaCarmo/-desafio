@@ -27,12 +27,26 @@ Configurar Security Groups foi um dos pontos mais importantes. Aprendi que abrir
 ### 💾 Associar volumes EBS
 Conectar um volume EBS à instância foi um divisor de águas. Entendi como separar o armazenamento do processamento traz flexibilidade e persistência. Aprendi a montar, formatar e usar o volume como se fosse um disco local  e isso me deu uma visão mais clara de como **infraestrutura em nuvem simula o físico, mas com muito mais controle**.
 
----
+### Explicação do Diagrama de Arquitetura
 
-## 💡 Reflexões finais
-
-Esse laboratório me mostrou que trabalhar com EC2 não é só sobre “ligar uma máquina virtual”. É sobre **entender a arquitetura, pensar em segurança, planejar armazenamento e acompanhar o desempenho**. E acima de tudo, é sobre aprender a pensar como uma pessoa que constrói soluções na nuvem — com responsabilidade, clareza e propósito.
-
+O diagrama representa uma arquitetura simples baseada em serviços da AWS, voltada para aplicações que exigem processamento, armazenamento e banco de dados. Ele mostra como os componentes se conectam e como o fluxo de dados acontece desde o usuário até os serviços em nuvem.
+🔄 Fluxo de Interação
+- Ator (Usuário): Representa a pessoa que interage com o sistema, seja via navegador ou dispositivo móvel.
+- Interface de Usuário: O ponto de entrada da aplicação, onde o usuário envia arquivos ou faz requisições.
+- Envio de Arquivo: O dado enviado pelo usuário é processado e armazenado.
+- Amazon EC2: Instância responsável pelo processamento da aplicação. É o “cérebro” da arquitetura, executando o código e gerenciando as requisições.
+- Amazon EBS: Volumes de armazenamento conectados à EC2, usados para guardar dados persistentes, arquivos temporários ou logs.
+- Amazon RDS: Banco de dados relacional gerenciado, ideal para armazenar dados estruturados como informações de usuários, registros e transações.
+🧠 Por que essa arquitetura?
+Essa estrutura é eficiente para aplicações web que precisam de:
+- Processamento sob demanda (EC2)
+- Armazenamento persistente (EBS)
+- Banco de dados confiável e escalável (RDS)
+Ela também separa responsabilidades entre os serviços, o que facilita manutenção, escalabilidade e segurança.
 
 ![Criação da instância EC2](diagramaEC2.png)
 
+---
+## 💡 Reflexões finais
+
+Esse laboratório me mostrou que trabalhar com EC2 não é só sobre “ligar uma máquina virtual”. É sobre **entender a arquitetura, pensar em segurança, planejar armazenamento e acompanhar o desempenho**. E acima de tudo, é sobre aprender a pensar como uma pessoa que constrói soluções na nuvem — com responsabilidade, clareza e propósito.
