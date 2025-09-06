@@ -1,0 +1,1 @@
+Este laboratório teve como objetivo consolidar meus conhecimentos em gerenciamento de instâncias EC2 na AWS. Durante a prática, explorei desde a criação de instâncias até a configuração de volumes EBS, segurança, monitoramento e boas práticas de uso
