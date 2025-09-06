@@ -15,7 +15,7 @@ Durante o laboratório, percebi que o EC2 é como um “computador na nuvem”  
 O que mais me chamou atenção:
 - Elasticidade: posso iniciar, parar, reiniciar ou terminar instâncias conforme a necessidade, sem depender de hardware físico.
 - Escalabilidade: é possível aumentar ou reduzir recursos com poucos cliques, o que é essencial para aplicações que crescem rápido.
-- Integração com outros serviços: EC2 conversa facilmente com EBS, CloudWatch, IAM, S3 e muitos outros — o que permite montar arquiteturas completas e automatizadas.
+- Integração com outros serviços: EC2 conversa facilmente com EBS, CloudWatch, IAM, S3 e muitos outros  o que permite montar arquiteturas completas e automatizadas.
 - Controle total: diferente de serviços gerenciados, o EC2 me dá liberdade para configurar tudo do zero, o que é ótimo para aprender e testar.
 - 
 Esse laboratório me ajudou a entender que EC2 não é só sobre “ligar uma máquina”, mas sim sobre construir ambientes sob medida, com segurança, desempenho e escalabilidade.
@@ -49,4 +49,4 @@ Ela também separa responsabilidades entre os serviços, o que facilita manuten�
 ---
 ## 💡 Reflexões finais
 
-Esse laboratório me mostrou que trabalhar com EC2 não é só sobre “ligar uma máquina virtual”. É sobre **entender a arquitetura, pensar em segurança, planejar armazenamento e acompanhar o desempenho**. E acima de tudo, é sobre aprender a pensar como uma pessoa que constrói soluções na nuvem — com responsabilidade, clareza e propósito.
+Esse laboratório me mostrou que trabalhar com EC2 não é só sobre “ligar uma máquina virtual”. É sobre **entender a arquitetura, pensar em segurança, planejar armazenamento e acompanhar o desempenho**. E acima de tudo, é sobre aprender a pensar como uma pessoa que constrói soluções na nuvem  com responsabilidade, clareza e propósito.
